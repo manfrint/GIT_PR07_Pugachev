@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+<<<<<<< HEAD
 using System.Data.SqlTypes;
+=======
+>>>>>>> dev
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,10 +20,14 @@ namespace Pugachev_PR07_GIT
         {
             InitializeComponent();
         }
-
         private void label2_Click(object sender, EventArgs e)
         {
             lblDateTime.Text = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
