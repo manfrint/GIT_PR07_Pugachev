@@ -29,5 +29,10 @@ namespace Pugachev_PR07_GIT
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            char;
+        }
     }
 }
